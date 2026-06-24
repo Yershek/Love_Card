@@ -1,11 +1,11 @@
 import { useState } from "react";
 import { TabBar, FloatingParticles } from "./components/UI";
-import HomePage     from "./components/HomePage";
-import ApologyPage  from "./components/ApologyPage";
-import ReasonsPage  from "./components/ReasonsPage";
-import GalleryPage  from "./components/GalleryPage";
-import CalendarPage from "./components/CalendarPage";
-import LetterPage   from "./components/LetterPage";
+import HomePage     from "./components/HomePage.jsx";
+import ApologyPage  from "./components/ApologyPage.jsx";
+import ReasonsPage  from "./components/ReasonsPage.jsx";
+import GalleryPage  from "./components/GalleryPage.jsx";
+import CalendarPage from "./components/CalendarPage.jsx";
+import LetterPage   from "./components/LetterPage.jsx";
 
 export default function App() {
   const [tab, setTab] = useState("home");
